@@ -22,7 +22,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://t.me/thesmdev") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002473816521'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Movies_Downloadingg')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002458278889').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002279216539').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gululumkc:6hfvSosJNm5i0p1h@filterbot.tgd2x.mongodb.net/?retryWrites=true&w=majority&appName=Filterbot")
@@ -43,18 +43,18 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/smnetworkk') #Support g
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/NetworkNexusOp/434")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/NetworkNexusOp/434")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/NetworkNexusOp/434")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "683b83b4eeac034401419141cc13637a3c9e40bb")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'adrinolinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "683b83b4eeac034401419141cc13637a3c9e40bb")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'adrinolinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "b2f3007e50e966485c66e1d234178e0530375368")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'hypershort.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "EuzBWxkBOAUbZqq7nFHzChLqsEf2")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shareus.io')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "683b83b4eeac034401419141cc13637a3c9e40bb")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'adrinolinks.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1440"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "1440"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
@@ -72,7 +72,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://i.imgur.com/tjlLTCH.jpeg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
