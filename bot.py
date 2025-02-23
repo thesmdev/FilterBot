@@ -5,6 +5,23 @@ from pathlib import Path
 from pyrogram import idle
 import logging
 import logging.config
+import asyncio
+import aiohttp
+
+URL = "https://roasted-jordan-smnetworkk-22cdcb77.koyeb.app/"  # Replace with your koyeb app link...
+
+async def ping():
+    async with aiohttp.ClientSession() as session:
+        while True:
+            try:
+                async with session.get(URL) as response:
+                    print(f"Pinged server, status: {response.status}")
+            except Exception as e:
+                print(f"{e}")
+            await asyncio.sleep(600)
+
+loop = asyncio.get_event_loop()
+loop.create_task(ping())
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
